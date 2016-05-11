@@ -4,10 +4,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Matthew Wilson</title>
   <link rel="stylesheet" href="style.css">
-    <!-- <script id="project-template" type="text/x-handlebars-template"> -->
-      <article>
-        Handlebars template for each project will go here
-      </article>
+
+      <script id="project-template" type="text/x-handlebars-template">
+          <article data-category="{{title}}">
+              <div class="title">{{title}}</div>
+              <p class="description">{{description}}</p>
+              <img src="{{image}}">
+              <a href="{{link}}" class="link">{{link}}</a>
+              </article>
+      </script>
+
 </head>
 
 <body>
@@ -21,12 +27,14 @@
     <select id="project-filter">
           <option value=""> Filter by Project </option>
         </select>
-    <p>Click on a project to learn more:</p>
-    <div id="project-list">
 
+    <p>Click on a project to learn more:</p>
+
+    <div id="project-list">
     </div>
 
   </main>
+
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
   <script src="app.js"></script>
