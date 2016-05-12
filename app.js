@@ -25,10 +25,7 @@ projectArray.forEach(function(a){
 $('.projects').hide();
 
 //on click hide all articles, show one with id, when click again show all articles
-//NOT WORKING YET, WILL HAVE TO FIGURE OUT
 $('.project-image').click(function(e) {
-  console.log(e);
   $('.menu-item').hide();
-  var $articleId = e.id;
-  $('#$articleId').show();
+  $('.' + e.target.id).fadeIn();
 });
