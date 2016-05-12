@@ -1,22 +1,26 @@
 .project-image {
   height: 200px;
   width: auto;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 body {
   font-family: Helvetica;
   color: white;
-  background-color: black; }
+  background-color: black;
+ }
 
 header {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   text-align: center;
   background-color: black;
 }
 
 main {
-padding-top:120px;
+padding-top: 15vh;
+font-size: 3vh;
+text-align: center;
 }
