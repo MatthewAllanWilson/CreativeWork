@@ -6,7 +6,14 @@
   <link rel="stylesheet" href="style.css">
 
     <script id="project-template" type="text/x-handlebars-template">
-      <article data-category="{{title}}">
+
+      <article class="menu-item">
+        <div class="title">{{title}}</div>
+        <br>
+        <img class="project-image" src="{{image}}">
+      </article>
+
+      <article class="projects" id="{{id}}">
         <div class="title">{{title}}</div>
         <p class="description">{{description}}</p>
         <img class="project-image" src="{{image}}">

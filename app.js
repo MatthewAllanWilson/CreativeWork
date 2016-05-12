@@ -3,6 +3,7 @@ function Project (obj) {
   this.description = obj.description;
   this.link = obj.link;
   this.image = obj.image;
+  this.id = obj.id;
 }
 
 var projectArray = [];
@@ -19,4 +20,15 @@ Project.prototype.toHtml = function() {
 
 projectArray.forEach(function(a){
   $('#project-list').append(a.toHtml());
+});
+
+$('.projects').hide();
+
+//on click hide all articles, show one with id, when click again show all articles
+//NOT WORKING YET, WILL HAVE TO FIGURE OUT
+$('.project-image').click(function(e) {
+  console.log(e);
+  $('.menu-item').hide();
+  var $articleId = e.id;
+  $('#$articleId').show();
 });
