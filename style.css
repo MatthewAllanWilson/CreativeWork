@@ -20,7 +20,17 @@ header {
 }
 
 main {
-padding-top: 15vh;
+padding-top: 20vh;
 font-size: 3vh;
 text-align: center;
+}
+
+@media only screen and (min-width: 960px) {
+  main {
+    text-align: left;
+  }
+  .menu-item {
+    float: left;
+    margin-left: 100px;
+  }
 }

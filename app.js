@@ -29,3 +29,8 @@ $('.project-image').click(function(e) {
   $('.menu-item').hide();
   $('.' + e.target.id).fadeIn();
 });
+
+$('button').click(function() {
+  $('.projects').hide();
+  $('.menu-item').fadeIn();
+});
