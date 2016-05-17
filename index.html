@@ -5,33 +5,36 @@
   <title>Matthew Wilson</title>
   <link rel="stylesheet" href="style.css">
 
-      <script id="project-template" type="text/x-handlebars-template">
-          <article data-category="{{title}}">
-              <div class="title">{{title}}</div>
-              <p class="description">{{description}}</p>
-              <img class="project-image" src="{{image}}">
-              <a href="{{link}}" class="link" target="_blank">{{link}}</a>
-              </article>
-      </script>
+    <script id="project-template" type="text/x-handlebars-template">
+
+      <article class="menu-item">
+        <div class="title">{{title}}</div>
+        <br>
+        <img class="project-image" id="{{id}}" src="{{image}}">
+      </article>
+
+      <article class="projects {{id}}">
+        <div class="title">{{title}}</div>
+        <p class="description">{{description}}</p>
+        <img class="project-image" src="{{image}}">
+        <a href="{{link}}" class="link" target="_blank">{{link}}</a>
+      </article>
+    </script>
 
 </head>
-
 <body>
-
   <header>
     <h1>Matthew Wilson</h1>
-    <h2>Writer, Filmmaker, Web Developer</h2>
+    <h2>Writer and Filmmaker</h2>
   </header>
+    <main>
+      <select id="project-filter">
+        <option value=""> Filter by Project </option>
+      </select>
 
-  <main>
-    <select id="project-filter">
-          <option value=""> Filter by Project </option>
-        </select>
-
-    <p>Click on a project to learn more:</p>
-
-    <div id="project-list">
-    </div>
+      <p>Click on a project to learn more:</p>
+      <div id="project-list">
+      </div>
 
   </main>
 
