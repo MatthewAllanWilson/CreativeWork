@@ -4,6 +4,10 @@
   border-radius: 50%;
 }
 
+.title {
+  padding-top: 10px;
+}
+
 body {
   font-family: Helvetica;
   color: white;
@@ -25,18 +29,30 @@ font-size: 3vh;
 text-align: center;
 }
 
-.menu-item {
-  height: 250px;
-  width: 400px;
-  text-align: center;
+@media only screen and (min-width: 760px) {
+  .menu-item {
+    float: left;
+    height: 250px;
+    width: 350px;
+    text-align: center;
+  }
+  #project-list {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (min-width: 960px) {
-  main {
-    text-align: left;
-  }
   .menu-item {
     float: left;
-    /*margin-left: 100px;*/
+    height: 250px;
+    width: 300px;
+    text-align: center;
+  }
+  #project-list {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
