@@ -20,6 +20,8 @@ Project.prototype.toHtml = function() {
 
 projectArray.forEach(function(a){
   $('#project-list').append(a.toHtml());
+  var optionTag = '<option value="' + a.id + '">' + a.title + '</option>';
+  $('#project-filter').append(optionTag);
 });
 
 $('.projects').hide();
@@ -33,4 +35,11 @@ $('.project-image').click(function(e) {
 $('button').click(function() {
   $('.projects').hide();
   $('.menu-item').fadeIn();
+});
+
+//This works but breaks everything when you select the top option.  Need to get it to reset to this after each selection.  Also, makes it slow because it hides projects that are already hidden before it shows the selected project.
+$('#project-filter').on('change', function () {
+  $('.menu-item').hide();
+  $('.projects').hide();
+  $('.' + this.value).fadeIn();
 });
