@@ -25,12 +25,18 @@ font-size: 3vh;
 text-align: center;
 }
 
+.menu-item {
+  height: 250px;
+  width: 400px;
+  text-align: center;
+}
+
 @media only screen and (min-width: 960px) {
   main {
     text-align: left;
   }
   .menu-item {
     float: left;
-    margin-left: 100px;
+    /*margin-left: 100px;*/
   }
 }
