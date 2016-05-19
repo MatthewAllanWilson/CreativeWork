@@ -2,7 +2,7 @@ var projectData =
   [
     {
       title: 'The Virgins',
-      body: 'This is a feature film I wrote, directed, produced, and edited.',
+      body: 'This is a feature film I wrote, directed, produced and edited. It is a comedy about a young couple who have saved themselves for marriage, even though they will only have one night together before the groom leaves for the army.  That night they accidentally lock themselves out of their honeymoon cabin and end up on a wild adventure.  All they want is to consummate their marriage in peace but one circumstance after another interrupts them.  A comedy about waiting and waiting and waiting some more.  Here is the trailer: <br><iframe width="560" height="315" src="https://www.youtube.com/embed/aO34JCZbUjE" frameborder="0" allowfullscreen></iframe><br>  I wrote a <a href="http://www.thevirginsmovie.com/blog/is-this-one-of-those-stupid-christian-movies" class="link" target="_blank">blog post</a> about why I wanted to tell this particular story.  The gist was that I wanted to make a Christian movie for people who hate Christian movies.  I have felt for a long time that people of my faith have been inaccurately portrayed in cinema.  Even more so in Christian cinema than the mainstream.  So I tried to do something different.  You can watch the full movie on <a href="http://www.amazon.com/Virgins-Blake-Webb/dp/B00N2E8YWC/" class="link" target="_blank">Amazon</a> or <a href="http://itunes.apple.com/us/movie/the-virgins/id891943379" class="link" target="_blank">iTunes</a>.',
       link: 'http://www.amazon.com/Virgins-Blake-Webb/dp/B00N2E8YWC/',
       image: 'images/TheVirgins_Poster.jpg',
       id: 'virgins'
