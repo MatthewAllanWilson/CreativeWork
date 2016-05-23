@@ -8,16 +8,17 @@
     <script id="project-template" type="text/x-handlebars-template">
 
       <article class="menu-item">
-        <img class="project-image" id="{{id}}" src="{{image}}">
+        <img class="project-image menu-image" id="{{id}}" src="{{image}}">
         <br>
         <div class="title">{{title}}</div>
       </article>
 
       <article class="projects {{id}}">
         <button>HOME</button>
-        <div class="title">{{title}}</div>
-        <p class="description">{{description}}</p>
+        <br>
         <img class="project-image" src="{{image}}">
+        <div class="title">{{title}}</div>
+        <p class="project-page-body">{{{body}}}</p>
         <a href="{{link}}" class="link" target="_blank">{{link}}</a>
       </article>
     </script>

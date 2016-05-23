@@ -1,6 +1,6 @@
 function Project (obj) {
   this.title = obj.title;
-  this.description = obj.description;
+  this.body = obj.body;
   this.link = obj.link;
   this.image = obj.image;
   this.id = obj.id;
