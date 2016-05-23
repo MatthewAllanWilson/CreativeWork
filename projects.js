@@ -9,7 +9,7 @@ var projectData =
     },
     {
       title: 'A Word to Rhyme with Orange',
-      body: 'I teamed up with illustrator Jessica Chrysler to turn a poem I wrote into a children\'s book.',
+      body: 'I teamed up with illustrator Jessica Chrysler to turn a poem I wrote into a children\'s book. <img src="images/Orange_1.jpg">  I wrote the poem in 2008 but couldn\'t figure out what to do with it until I met Jessica in 2012 at WonderCon.  I loved her illustration style and immediately I thought she should do artwork for the story. <img src="images/Orange_2.jpg">  She hand-painted all the illustrations, which took quite awhile, but the extra work was worth it and in January of 2014 we published a book that we were both quite proud of.  It\'s available on <a href="http://www.amazon.com/Word-Rhyme-Orange-Matthew-Wilson/dp/1493767267/" class="link" target="_blank">Amazon</a>.',
       link:'http://www.amazon.com/Word-Rhyme-Orange-Matthew-Wilson/dp/1493767267/',
       image: 'images/Cover_Cropped_Promo.jpg',
       id: 'orange'
@@ -63,5 +63,26 @@ var projectData =
       link: 'http://www.imdb.com/title/tt0454343/',
       image: 'images/Firehouse.jpg',
       id: 'firehouse'
+    },
+    {
+      title: 'Kevin Nealon Stand-Up',
+      body: 'This is one of the more random things I\'ve done in my career.  I wrote a few jokes for Kevin Nealon for his standup comedy.  He has a portion of his show where he does \'Weekend Update\' just like he used to on SNL.  I met him through a mutual friend at one of his standup shows and he told me I could pitch him jokes.  I spent hours and hours coming up with dozens and dozens of jokes.  In the end he only used two of them, and I got the impression that he doesn\'t really need a joke writer.  It was just an experiment to see if I could come up with anything better than what he already had.  Even though nothing much came of it, I still think it was a good excercise that helped me develop my writing skills.',
+      link: 'http://kevinnealon.com/',
+      image: 'images/Nealon.jpg',
+      id: 'nealon'
+    },
+    {
+      title: 'Comedy Videos',
+      body: 'After taking a sketch comedy writing class at the UCB theater in 2008 I started making some comedy videos with friends.  The production value on all of them was terrible, but one of them, \'Christian Dating\', was featured on the Funny or Die homepage for a short while.  The process of making the videos is what led to me trying my hand at a feature-length \'test movie\' (The Umpire) in 2011.',
+      link: 'https://www.youtube.com/user/jokesforjesus',
+      image: 'images/Pete.jpg',
+      id: 'videos'
+    },
+    {
+      title: 'Screenplays',
+      body: 'I have written 18 feature-length screenplays.',
+      link: 'http://www.oscars.org/',
+      image: 'images/Script.jpg',
+      id: 'screenplays'
     }
   ];
