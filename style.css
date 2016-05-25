@@ -9,6 +9,13 @@
   padding-top: 10px;
 }
 
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 html {
   /*background-image: url(images/temp_background.jpg);*/
   background-attachment: fixed;
