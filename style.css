@@ -9,6 +9,19 @@
   padding-top: 10px;
 }
 
+p {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 5px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+iframe {
+  width: 300px;
+  height: auto;
+}
+
 a {
   text-decoration: none;
 }
@@ -84,6 +97,10 @@ button {
     width: 750px;
     margin-left: auto;
     margin-right: auto;
+  }
+  iframe {
+    width: 560px;
+    height: 315px;
   }
 }
 
