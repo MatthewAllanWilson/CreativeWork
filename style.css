@@ -17,6 +17,10 @@ p {
   text-align: left;
 }
 
+li {
+  text-align: left;
+}
+
 iframe {
   width: 300px;
   height: auto;
@@ -30,16 +34,13 @@ a:hover {
 }
 
 html {
-  /*background-image: url(images/temp_background.jpg);*/
   background-attachment: fixed;
   background-position: center;
 }
 
 body {
   font-family: Helvetica;
-  /*color: white;*/
   color: black;
-  /*background: rgba(0, 0, 0, 0.7);*/
   top: 0;
   left: 0;
   right: 0;
@@ -53,7 +54,6 @@ header {
   left: 0;
   width: 100%;
   text-align: center;
-  /*background-color: black;*/
   background-color: white;
 }
 
@@ -69,12 +69,24 @@ height: 100%;
   margin-top: 25px;
 }
 
+footer {
+  font-size: 20px;
+  position: fixed;
+  padding-bottom: 5px;
+  padding-top: 2px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
 .menu-item {
   height: 225px;
 }
 
 button {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 760px) {
@@ -91,7 +103,6 @@ button {
     height: 250px;
     width: 350px;
     text-align: center;
-    /*background: rgba(0, 0, 0, 0.7);*/
   }
   #project-list {
     width: 750px;

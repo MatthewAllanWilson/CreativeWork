@@ -2,7 +2,7 @@ var projectData =
   [
     {
       title: 'The Virgins',
-      body: '<p>This is a feature film I wrote, directed, produced and edited. It is a comedy about a young couple who saved themselves for marriage, even though they will only have one night together before the groom leaves for the army.  That night they accidentally lock themselves out of their honeymoon cabin and end up on a wild adventure.  All they want is to consummate their marriage in peace but one circumstance after another interrupts them.  A comedy about waiting and waiting and waiting some more.  Here\'s the trailer:</p> <iframe width="560" height="315" src="https://www.youtube.com/embed/aO34JCZbUjE" frameborder="0" allowfullscreen></iframe><p>I wrote a <a href="http://www.thevirginsmovie.com/blog/is-this-one-of-those-stupid-christian-movies" class="link" target="_blank">blog post</a> about why I wanted to tell this particular story.  The gist was that I wanted to make a Christian movie for people who hate Christian movies.  I have felt for a long time that people of my faith have been inaccurately portrayed in cinema.  Even more so in Christian cinema than the mainstream.  So I tried to do something different.  It got good reviews from both <a href="http://christandpopculture.com/sex-marriage-prosperity-sex-gospel-review-virgins/" class="link" target="_blank"> Christian</a> and <a href="http://www.roguecinema.com/the-virgins-2014-by-philip-smolen.html" class="link" target="_blank"> non-Christian</a> critics.  You can watch the full movie on <a href="http://www.amazon.com/Virgins-Blake-Webb/dp/B00N2E8YWC/" class="link" target="_blank">Amazon</a> or <a href="http://itunes.apple.com/us/movie/the-virgins/id891943379" class="link" target="_blank">iTunes</a>.</p>',
+      body: '<p>This is a feature film I wrote, directed, produced and edited. It is a comedy about a young couple who saved themselves for marriage, even though they will only have one night together before the groom leaves for the army.  That night they accidentally lock themselves out of their honeymoon cabin and end up on a wild adventure.  All they want is to consummate their marriage in peace but one circumstance after another interrupts them.  A comedy about waiting and waiting and waiting some more.  Here\'s the trailer:</p> <iframe width="560" height="315" src="https://www.youtube.com/embed/aO34JCZbUjE" frameborder="0" allowfullscreen></iframe><p>You can watch the full movie on <a href="http://www.amazon.com/Virgins-Blake-Webb/dp/B00N2E8YWC/" class="link" target="_blank">Amazon</a> or <a href="http://itunes.apple.com/us/movie/the-virgins/id891943379" class="link" target="_blank">iTunes</a>.</p> <p>I was fortunate enough to have several media outlets review the film:<ul><li><a href="http://www.christianitytoday.com/ct/2014/july-web-only/virgins-are-on-their-way-.html" class="link" target="_blank">Christianity Today</a></li><li><a href="http://convergemagazine.com/virgins-movie-shouldnt-abstain-watching-14020/" class="link" target="_blank">Converge Magazine</a></li><li><a href="http://christandpopculture.com/sex-marriage-prosperity-sex-gospel-review-virgins/" class="link" target="_blank"> Christ and Pop Culture</a></li><li><a href="http://www.roguecinema.com/the-virgins-2014-by-philip-smolen.html" class="link" target="_blank">Rogue Cinema</a></li><li><a href="http://www.hollywoodjesus.com/the-virgins/" class="link" target="_blank">HJ Live!</a></li><li><a href="http://tvwriter.net/?p=22882" class="link" target="_blank">TVWriter.com</li></ul></p>',
       link: 'http://www.amazon.com/Virgins-Blake-Webb/dp/B00N2E8YWC/',
       image: 'images/TheVirgins_Poster.jpg',
       id: 'virgins'
@@ -76,12 +76,12 @@ var projectData =
       link: 'https://www.youtube.com/user/jokesforjesus',
       image: 'images/Pete.jpg',
       id: 'videos'
-    },
-    {
-      title: 'Screenplays',
-      body: 'I have written 18 feature-length screenplays.',
-      link: 'http://www.oscars.org/',
-      image: 'images/Script.jpg',
-      id: 'screenplays'
-    }
+    }//,
+    // {
+    //   title: 'Screenplays',
+    //   body: 'I have written 18 feature-length screenplays.',
+    //   link: 'http://www.oscars.org/',
+    //   image: 'images/Script.jpg',
+    //   id: 'screenplays'
+    // }
   ];
