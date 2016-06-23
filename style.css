@@ -5,6 +5,16 @@
   border-radius: 50%;
 }
 
+.body-image {
+  height: 50vh;
+  border-radius: 5px;
+}
+
+.big-image {
+  height: 30vh;
+  border-radius: 5px;
+}
+
 .title {
   padding-top: 10px;
 }
@@ -89,6 +99,10 @@ button {
   margin-bottom: 30px;
 }
 
+.tagline {
+  text-align: center;
+}
+
 @media only screen and (min-width: 760px) {
   .menu-image:hover {
     height: 175px;
@@ -100,7 +114,7 @@ button {
   }
   .menu-item {
     float: left;
-    height: 250px;
+    height: 240px;
     width: 350px;
     text-align: center;
   }
@@ -112,6 +126,12 @@ button {
   iframe {
     width: 560px;
     height: 315px;
+  }
+  .body-image {
+    height: 70vh;
+  }
+  .big-image {
+    height: 50vh;
   }
 }
 
